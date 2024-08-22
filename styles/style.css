@@ -174,24 +174,28 @@ html, body {
 
 .card {
     max-width: 1052px;
-    min-height: 563px;
     display: flex;
     flex-wrap: wrap;
-    gap: 0 25px;
+    gap: 25px;
     margin-left: 25px;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
 }
 
 .card_type {
     position: relative;
     display: grid;
     width: 334px;
+    min-height: 563px;
     align-content: space-between;
     color: #fff;
     padding: 51px 40px 48px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+}
+
+.lots__card-link {
+    list-style: none;
 }
 
 .card_type_film {
