@@ -254,6 +254,7 @@ html, body {
 }  
 
 .about__logo {
+    display: flex;
     justify-content: center;
     align-items: center; 
     width: 240px;
@@ -266,11 +267,6 @@ html, body {
 .about__logo-image {
     width: 148px;
     height: 114px;
-    position: relative;
-    top: 64px;
-    right: 45.52px;
-    bottom: 62px;
-    left: 46.48px;
 }
 
 .about__title {
